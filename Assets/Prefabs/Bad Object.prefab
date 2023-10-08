@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 5235594683289153589}
   - component: {fileID: 5235594683289153588}
   - component: {fileID: 5235594683289153591}
-  - component: {fileID: 5235594683289153590}
+  - component: {fileID: -8422252000734818002}
   m_Layer: 0
   m_Name: Bad Object
   m_TagString: Untagged
@@ -129,7 +129,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
---- !u!114 &5235594683289153590
+--- !u!114 &-8422252000734818002
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -138,8 +138,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 5235594683289153585}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bfcfbd26296e4450883ff405eba93a80, type: 3}
+  m_Script: {fileID: 11500000, guid: 5f6a50acaafbc46ef9481d30912612aa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   timer: 2
-  pointValue: -1
+  pointValue: 0

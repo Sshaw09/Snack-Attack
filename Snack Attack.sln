@@ -3,6 +3,10 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{0FC44A01-9424-40B8-9960-F1274DAB3B19}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConeMeshAssembly", "ConeMeshAssembly.csproj", "{75488AEF-7D00-0321-3902-337F77D2F16B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConeMeshEditorAssembly", "ConeMeshEditorAssembly.csproj", "{23F58912-E4EA-2015-3AAC-010134AD2384}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +17,14 @@ Global
 		{0FC44A01-9424-40B8-9960-F1274DAB3B19}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0FC44A01-9424-40B8-9960-F1274DAB3B19}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0FC44A01-9424-40B8-9960-F1274DAB3B19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75488AEF-7D00-0321-3902-337F77D2F16B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75488AEF-7D00-0321-3902-337F77D2F16B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75488AEF-7D00-0321-3902-337F77D2F16B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75488AEF-7D00-0321-3902-337F77D2F16B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23F58912-E4EA-2015-3AAC-010134AD2384}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23F58912-E4EA-2015-3AAC-010134AD2384}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23F58912-E4EA-2015-3AAC-010134AD2384}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23F58912-E4EA-2015-3AAC-010134AD2384}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
