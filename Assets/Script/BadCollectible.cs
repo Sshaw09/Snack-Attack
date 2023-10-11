@@ -35,5 +35,10 @@ public class BadCollectible : MonoBehaviour
             //Instantiate(explosionParticle, transform.position, explosionParticle.transform.rotation);
 
         }
+
+        if (other.gameObject.CompareTag("Finish"))
+        {
+            Destroy(gameObject);
+        }
     }
 }

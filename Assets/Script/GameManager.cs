@@ -10,6 +10,7 @@ public class GameManager : MonoBehaviour
 {
     public List<GameObject> collectiblesPrefabs;
     public TextMeshProUGUI scoreText;
+    public TextMeshProUGUI topScoreText;
     private float spawnRate = 1.5f;
     public static int score;
 
@@ -23,7 +24,8 @@ public class GameManager : MonoBehaviour
     void Update()
     {
         scoreText.text = "Score: " + score.ToString();
-        
+        topScoreText.text = "Final Score: " + score.ToString();
+
     }
     private Vector3 GenerateSpawnPosition()
     {
@@ -48,7 +50,11 @@ public class GameManager : MonoBehaviour
     {
         //Makes the score go up
         score += scoreToAdd;
-        Debug.Log("Test");
-        
+    }
+
+    public void ResetGame()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        GameManager.score = 0;
     }
 }

@@ -4,11 +4,13 @@ using UnityEngine;
 using TMPro;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using UnityEngine.Device;
 
 public class Timer : MonoBehaviour
 {
     public TextMeshProUGUI timerText;
     public float timer = 60;
+    public GameObject endScreen;
     // Start is called before the first frame update
     void Start()
     {
@@ -22,13 +24,19 @@ public class Timer : MonoBehaviour
         {
             timer -= Time.deltaTime;
             timerText.text = timer.ToString();
+            endScreen.gameObject.SetActive(false);
         }
         else
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-            GameManager.score = 0;
+            endScreen.gameObject.SetActive(true);
         }
-
          
     }
+
+    void StartGame()
+    {
+        endScreen.gameObject.SetActive(false);
+    }
+
 }
+
